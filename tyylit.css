@@ -1,0 +1,127 @@
+/*kaikkien nappien vakio ulkonäkö*/
+button {
+  font-family: Arial, Helvetica, sans-serif; /* Aseta fontti */
+  line-height: 4;                 /* Aseta riviväli */
+  font-size: 20px;                /* Aseta fonttikoko */
+  font-weight: bold;              /* Aseta fontin paksuus */
+  bottom: 5%;              
+  width: 5%;                      /* Leveys */
+  padding: 10px;                  /* Sisäiset marginaalit */
+  text-align: center;             /* Keskitä teksti vaakasuunnassa */
+  text-decoration: none;          /* Poista alleviivaukset */
+  text-transform: uppercase;      /* Muuta teksti isoin kirjaimin */
+  color: #28282f;               /* Tekstiväri */
+  border-radius: 10px;            /* Pyöristetyt kulmat */
+  cursor: pointer;                /* Osoitinkäden osoitin */
+  position: absolute;
+  transition: box-shadow 0.3s;    
+  
+}
+
+  button:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15); /* pieni varjo napille hoveroidessa */
+}
+
+
+ /*määritellään jokaiselle napille oma id jotta voidaa yksilöidä aktivoitu nappi*/
+#btn1{
+  left: 6%;
+  background: #eeeee8;          
+}
+#btn2{
+  left: 13%;
+  background: #eeeee8;           
+}
+#btn3{
+  left: 20%;
+  background: #eeeee8;          
+}
+#btn4{
+  left: 27%;
+  background: #eeeee8;          
+}
+#btn5{
+  left: 34%;
+  background: #eeeee8;          
+}
+#btn6{
+  left: 41%;
+  background: #eeeee8;          
+}
+#btn7{
+  left: 48%;
+  background: #eeeee8;          
+}
+#btn8{
+  left: 55%;
+  background: #eeeee8;          
+}
+#btn9{
+  left: 62%;
+  background: #eeeee8;          
+}
+#btn10{
+  left: 69%;
+  background: #eeeee8;          
+}
+#btn11{
+  left: 76%;
+  background: #eeeee8;          
+}
+#btn12{
+  left: 83%;
+  background: #eeeee8;          
+}
+#btn13{
+  left: 90%;
+  background: #eeeee8;          
+}
+
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(100, 189, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kuva-alue img{
+    width: 400px;
+    height: 300px;
+    top: 8%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3)
+}
+
+#Otsikkoteksti {
+  position: absolute;
+  text-align: center;
+  margin-top: 1000px;
+  width: 250px;
+  height: 40px;
+  background-color:rgb(100, 189, 248);
+  font-size: 35px;
+  font-weight:bolder;
+  color: #eeeee8;
+  padding: 20px;
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.521)
+}
+
+#Sisältöteksti {
+  position: absolute;
+  text-align: center;
+  margin-top: 1200px;
+  width: 400px;
+  height: auto;
+  background-color: #eeeee8;
+  font-size: 20px;
+  font-weight:500;
+  color: #000000;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15)
+}
