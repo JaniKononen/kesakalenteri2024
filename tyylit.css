@@ -1,32 +1,42 @@
 /*kaikkien nappien vakio ulkonäkö*/
 button {
-  font-family: Arial, Helvetica, sans-serif; /* Aseta fontti */
-  line-height: 4;                 /* Aseta riviväli */
-  font-size: 20px;                /* Aseta fonttikoko */
-  font-weight: bold;              /* Aseta fontin paksuus */
+  font-family: Arial, Helvetica, sans-serif; 
+  line-height: 4;                 
+  font-size: 20px;                
+  font-weight: bold;              
   bottom: 5%;              
-  width: 5%;                      /* Leveys */
-  padding: 10px;                  /* Sisäiset marginaalit */
-  text-align: center;             /* Keskitä teksti vaakasuunnassa */
-  text-decoration: none;          /* Poista alleviivaukset */
-  text-transform: uppercase;      /* Muuta teksti isoin kirjaimin */
-  color: #28282f;               /* Tekstiväri */
-  border-radius: 10px;            /* Pyöristetyt kulmat */
-  cursor: pointer;                /* Osoitinkäden osoitin */
+  width: 5%;                      
+  padding: 10px;                  
+  text-align: center;            
+  text-decoration: none;         
+  text-transform: uppercase;     
+  color: #28282f;               
+  border-radius: 10px;            
+  cursor: pointer;                
   position: absolute;
   transition: box-shadow 0.3s;    
-  
 }
 
-  button:hover {
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15); /* pieni varjo napille hoveroidessa */
+/* pieni varjo napille hoveroidessa */
+button:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15); 
 }
 
+/*tekstin vakio ulkonäkö*/
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(100, 189, 248);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
  /*määritellään jokaiselle napille oma id jotta voidaa yksilöidä aktivoitu nappi*/
 #btn1{
   left: 6%;
-  background: #eeeee8;          
+  background: #eeeee8;
+  box-shadow: 0 8px 10px rgb(100, 189, 248);          
 }
 #btn2{
   left: 13%;
@@ -77,16 +87,7 @@ button {
   background: #eeeee8;          
 }
 
-
-body{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(100, 189, 248);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/*määritellään kuva-alueen ulkonäkö ja sijainti*/
 #kuva-alue img{
     width: 400px;
     height: 300px;
@@ -97,6 +98,7 @@ body{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3)
 }
 
+/*määritellään otsikkotekstin ulkonäkö ja sijainti*/
 #Otsikkoteksti {
   position: absolute;
   text-align: center;
@@ -111,6 +113,7 @@ body{
   text-shadow: 0 5px 20px rgba(0, 0, 0, 0.521)
 }
 
+/*määritellään sisältötekstin ulkonäkö ja sijainti*/
 #Sisältöteksti {
   position: absolute;
   text-align: center;
